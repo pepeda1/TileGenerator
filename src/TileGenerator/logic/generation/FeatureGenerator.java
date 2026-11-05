@@ -26,15 +26,15 @@ public class FeatureGenerator {
 	int[] treesWeights = null;
 	switch ((currentChunk.getBiomeHeightMap() + 2) * 3 + (currentChunk.getBiomeTemperatureMap() + 1)) {
 
-	    case 6: //Tundra has pine trees
+	    case 6: //Tundra has pine trees at a 50% rate
 
 		treesObjects = new TREES[] {TREES.PINE, null};
 		treesWeights = new int[] {1, 1};
 		break;
 
-	    case 7: //Plains has basic trees
+	    case 7: //Plains has oak trees at a 10% rate
 
-		treesObjects = new TREES[] {TREES.BASIC, null};
+		treesObjects = new TREES[] {TREES.OAK, null};
 		treesWeights = new int[] {1, 9};
 		break;
 
