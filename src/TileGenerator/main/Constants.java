@@ -91,7 +91,7 @@ public final class Constants {
      * 13 -> Pine log <br>
      * 14 -> Pine leaves <br>
     */
-    public static final Image[] TILE_SPRITES = retrieveTileSprites(); //The list of tile sprites, see the function for a full list of tiles and their indexes
+    public static final Image[] TILE_SPRITES = retrieveTileSprites(); //The list of tile sprites
     
     
     
