@@ -1,6 +1,5 @@
 package TileGenerator.main;
 
-import java.awt.Color;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -17,24 +16,6 @@ public final class Constants {
     /*		TEMPORARY		*/
     public static final int SEED = new Random().nextInt(); //TEMPORARY UNTIL PROPER SEED SELECTION SYSTEM IMPLEMENTED
     public static final short PLAYER_SPEED = 50; //TEMPORARY UNTIL ACTUAL PLAYER IS ADDED
-    public static final Color[] COLORS = { //TEMPORARY UNTIL TILE IMAGES ARE ADDED
-
-	    new Color(150, 200, 255), //Air
-	    Color.cyan, //Water
-	    Color.gray, //Stone
-	    Color.green, //Grass
-	    new Color(150, 100, 0), //Dirt
-	    Color.yellow, //Sand
-	    Color.yellow.darker(), //Sandstone
-	    new Color(240, 240, 255), //Snow
-	    new Color(200, 200, 255), //Ice
-	    Color.green.darker(), //Kelp
-	    Color.orange, //Coral
-	    Color.orange.darker().darker(), //Wood 1
-	    Color.orange.darker().darker().darker(), //Wood 2
-	    Color.green.darker(), //Leaves
-
-    };
 
     
     /*		CORE			*/
