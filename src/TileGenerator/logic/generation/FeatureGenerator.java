@@ -29,13 +29,13 @@ public class FeatureGenerator {
 	    case 6: //Tundra has pine trees
 
 		treesObjects = new TREES[] {TREES.PINE, null};
-		treesWeights = new int[] {1, 10};
+		treesWeights = new int[] {1, 1};
 		break;
 
 	    case 7: //Plains has basic trees
 
 		treesObjects = new TREES[] {TREES.BASIC, null};
-		treesWeights = new int[] {1, 10};
+		treesWeights = new int[] {1, 9};
 		break;
 
 	}
